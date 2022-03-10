@@ -1,0 +1,73 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - communications
+description:
+  it:
+    apiDocumentation: 'https://wiki.freepbx.org/display/FPG/API'
+    documentation: 'https://www.freepbx.org/get-started/'
+    features:
+      - VoIP
+      - SIP
+      - XMPP
+    genericName: Asterix frontend
+    longDescription: |
+      FreePBX è un frontend di Asterisk che permette una configurazione e una
+      gestione professionale di un centralino IP. Attraverso l'installazione di
+      Asterisk e di telefoni voip, ma anche soltanto utilizzando software
+      specializzati sui PC o configurando gli smartphone, è possibile fornire un
+      accesso VoIP a un'azienda, con la possibilità di effettuare chiamate verso
+      l'esterno, appoggiandosi ad hardware dedicato o a provider VoIP esterni.
+
+
+      FreePBX supporta la configurazione dei numeri di telefono, le conferenze,
+      gli avvisi di chiamata, il trasferimento di chiamata, i messaggi vocali.
+
+
+      È inoltre possibile configurare sistemi di menu utilizzabili da telefono.
+
+
+      Tutte le attività vengono registrate in modo da poter effettuare conteggi
+      e analisi del traffico.
+    shortDescription: Soluzione open source per creare un centralino IP
+developmentStatus: stable
+intendedAudience:
+  scope:
+    - infrastructures
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://www.freepbx.org/'
+legal:
+  license: GPL-3.0-only
+  mainCopyrightOwner: Sangoma Technologies
+  repoOwner: Sangoma Technologies
+localisation:
+  availableLanguages:
+    - it
+    - en
+  localisationReady: true
+maintenance:
+  contacts:
+    - name: Sangoma Technologies
+  type: community
+name: FreePBX
+platforms:
+  - linux
+releaseDate: '2021-10-31'
+roadmap: 'https://wiki.freepbx.org/display/FOP/Roadmap'
+softwareType: standalone/mobile
+softwareVersion: '16'
+url: 'https://github.com/FreePBX/devtools'
