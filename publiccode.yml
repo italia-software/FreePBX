@@ -9,6 +9,10 @@ description:
   it:
     apiDocumentation: 'https://wiki.freepbx.org/display/FPG/API'
     documentation: 'https://www.freepbx.org/get-started/'
+    screenshots:
+      - https://wiki.freepbx.org/download/attachments/3211273/FPBX_SS_login.PNG
+      - https://wiki.freepbx.org/download/attachments/3211273/FREEPBXDASH.png
+      - https://wiki.freepbx.org/download/attachments/3211273/FPBX_SS_status.PNG
     features:
       - VoIP
       - SIP
@@ -64,6 +68,7 @@ maintenance:
     - name: Sangoma Technologies
   type: community
 name: FreePBX
+logo: https://www.freepbx.org/wp-content/uploads/Sangoma_FreePBX_Logo_RGB_hori-pos-e1588854523908.png
 platforms:
   - linux
 releaseDate: '2021-10-31'
