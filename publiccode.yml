@@ -2,7 +2,7 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
-publiccodeYmlVersion: '0.2'
+publiccodeYmlVersion: '0.3'
 categories:
   - communications
 description:
@@ -17,7 +17,6 @@ description:
       - VoIP
       - SIP
       - XMPP
-    genericName: Asterix frontend
     longDescription: |
       FreePBX è un frontend di Asterisk che permette una configurazione e una
       gestione professionale di un centralino IP. Attraverso l'installazione di
